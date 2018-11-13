@@ -41,7 +41,9 @@
     "creativestyle/magesuite-daily-deal": "^1.0.0",
     "creativestyle/magesuite-cms-tag-manager": "^1.0.0",
     "creativestyle/magesuite-email-attachments": "^1.0.0",
-    "creativestyle/magesuite-gdpr": "^1.0.1"
+    "creativestyle/magesuite-gdpr": "^1.0.1",
+    "creativestyle/theme-creativeshop": "^6.1.0",
+    "smile/elasticsuite": "2.5.*"
   }
 }
 
