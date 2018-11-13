@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="MageSuite" width="350" src="https://avatars1.githubusercontent.com/u/42670934?s=350&v=4">
+  <img alt="MageSuite" width="211" src="https://avatars1.githubusercontent.com/u/42670934?s=350&v=4">
 </p>
 
 _A Magento 2 extension ecosystem providing UX/performance improvements and many new features._
