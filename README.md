@@ -71,6 +71,44 @@ It will install the build artifacts into `app/design` subfolder.
 
 After the theme is built, clear your Magento cache and you should be able to select it in admin.
 
+## Setting server rewrites for lazy resizing of product images
+
+MageSuite uses https://github.com/magesuite/lazy-resize extension that improves performance when product images thumbnails URLs are generated.
+
+That extension requires custom configuration of web server.
+
+For Apache edit `pub/media/.htaccess` in your Magento installation and replace following line:
+```
+RewriteRule .* ../get.php [L]
+```
+with
+```
+RewriteRule .* ../resize.php [L]
+```
+
+For Nginx (assuming that find nginx.conf.sample from Magento installation is used) find following section:
+```
+location / {
+    try_files $uri $uri/ /index.php$is_args$args;
+}
+```
+Add following code after:
+
+```
+location /media/catalog/product/thumbnail {
+    try_files $uri $uri/ /resize.php$is_args$args;
+}
+```
+Find following line:
+```
+# PHP entry point for main application
+location ~ ^/(index|get|static|errors/report|errors/404|errors/503|health_check)\.php$ {
+```
+And replace with:
+```
+# PHP entry point for main application
+location ~ ^/(index|get|static|errors/report|errors/404|errors/503|health_check|resize)\.php$ {
+```
 
 Brought to life by<br/>
 <a href="https://creativestyle.de">
