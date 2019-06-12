@@ -32,6 +32,8 @@ All of the frontend features and improvements are implemented in
 [theme-creativeshop](https://github.com/creativestyle/theme-creativeshop). 
 You won't be able to take advantage of them if you use __Luma__ or other custom theme.
 
+The lazy resizing of product images requires the PHP-Module `php-imagick` (PHP Wrapper to the ImageMagick library) to be installed and enabled on the Webserver.
+
 __WARNING!__ We do not support "easy"/"zip" magento installations. Creativeshop supports
 only the [Integrator / composer](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/integrator_install.html)
 route.
@@ -75,7 +77,7 @@ After the theme is built, clear your Magento cache and you should be able to sel
 
 MageSuite uses https://github.com/magesuite/lazy-resize extension that improves performance when product images thumbnails URLs are generated.
 
-That extension requires custom configuration of web server.
+That extension requires custom configuration of web server and `php-imagick` (PHP Wrapper to the ImageMagick library).
 
 For Apache edit `pub/media/.htaccess` in your Magento installation and replace following line:
 ```
