@@ -2,6 +2,7 @@
   "name": "creativestyle/magesuite",
   "type": "metapackage",
   "description": "MageSuite main package",
+  "license": "OSL-3.0",
   "require": {
     "creativestyle/magesuite-content-constructor-admin": "^2.0.0",
     "creativestyle/magesuite-content-constructor-frontend": "^2.0.0",
