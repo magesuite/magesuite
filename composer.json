@@ -44,7 +44,7 @@
     "creativestyle/magesuite-gdpr": "^1.0.1",
     "creativestyle/magesuite-sorting": "^1.0.0",
     "creativestyle/theme-creativeshop": "^8.0.0",
-    "smile/elasticsuite": "2.7.*"
+    "smile/elasticsuite": "2.8.*"
   }
 }
 
