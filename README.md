@@ -21,6 +21,15 @@ Short video presentation of the __Content Constructor__ feature:
 
 A demo installation showing the theme can be found [here](https://demo.creativeshop.io).
 
+## Magento versions
+
+| Magento version | MageSuite package version |
+|-----------------|---------------------------|
+| 2.3.0-2.3.1     | ^2.0.0                    |
+| 2.3.2           | ^3.0.0                    |
+| 2.3.3           | ^4.0.0                    |
+| 2.3.4           | ^5.0.0                    |
+
 ## Requirements
 
 All of the packages require Magento 2.3.2+.
