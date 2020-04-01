@@ -32,7 +32,7 @@ A demo installation showing the theme can be found [here](https://demo.creatives
 
 ## Requirements
 
-All of the packages require Magento 2.3.2+.
+All of the packages require Magento 2.3.3.
 
 The whole ecosystem depends on [elasticsuite](http://elasticsuite.io/) and you need 
 [elasticsearch](https://www.elastic.co/products/elasticsearch) in order to use it.
@@ -52,7 +52,7 @@ __TIP__ *It's advised you either have __[Elasticsuite](https://github.com/Smile-
 __elasticsearch__ up and running on `localhost:9200` prior to executing the `setup:upgrade` or it will fail.*
 
 * (optional) [Install Magento](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/integrator_install.html) if you don't have it yet 
-* Execute `composer require creativestyle/magesuite ^3.0.0`
+* Execute `composer require creativestyle/magesuite ^4.0.0`
 * Execute `bin/magento setup:upgrade`
 * Build the theme (next chapter)
 * Flush Magento cache
