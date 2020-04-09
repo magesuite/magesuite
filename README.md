@@ -81,6 +81,6 @@ It will install the build artifacts into `app/design` subfolder.
 After the theme is built, clear your Magento cache and you should be able to select it in admin.
 
 Brought to life by<br/>
-<a href="https://creativestyle.de">
-	<img src="http://www.creativestyle.pl/wp-content/uploads/2014/04/CS-logo-red-creativestyle-gmbh-sp-z-o-o-interactive-agency-krakow-munchen-logo.png" width="150"/>
+<a href="https://creativestyle.de/magento">
+	<img src="https://info.creativestyle.de/hubfs/creativestyle/creativestyle-logo-150.png" width="150"/ alt="creativestyle | Magento Agentur" title="creativestyle | Magento Agentur">
 </a>
