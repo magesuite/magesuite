@@ -82,5 +82,5 @@ After the theme is built, clear your Magento cache and you should be able to sel
 
 Brought to life by<br/>
 <a href="https://creativestyle.de/magento">
-	<img src="https://info.creativestyle.de/hubfs/creativestyle/creativestyle-logo-150.png" width="150"/ alt="creativestyle | Magento Agentur" title="creativestyle | Magento Agentur">
+	<img src="https://info.creativestyle.de/hubfs/creativestyle/creativestyle-logo-150.png" width="150" alt="creativestyle | Magento Agentur" title="creativestyle | Magento Agentur"/>
 </a>
