@@ -5,7 +5,7 @@
   "license": "OSL-3.0",
   "require": {
     "creativestyle/magesuite-content-constructor-admin": "^2.0.0",
-    "creativestyle/magesuite-content-constructor-frontend": "^2.0.0",
+    "creativestyle/magesuite-content-constructor-frontend": "^3.0.0",
     "creativestyle/magesuite-content-constructor-category-page": "^1.0.0",
     "creativestyle/magesuite-content-constructor-remove-layout-validation": "^1.0.0",
     "creativestyle/magesuite-category-hero": "^1.0.0",
@@ -44,8 +44,8 @@
     "creativestyle/magesuite-email-attachments": "^3.0.0",
     "creativestyle/magesuite-gdpr": "^1.0.1",
     "creativestyle/magesuite-sorting": "^1.0.0",
-    "creativestyle/theme-creativeshop": "^8.0.0",
-    "smile/elasticsuite": "2.9.*"
+    "creativestyle/theme-creativeshop": "^10.0.0",
+    "smile/elasticsuite": "^2.10"
   }
 }
 
