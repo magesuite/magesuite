@@ -21,6 +21,18 @@ Short video presentation of the __Content Constructor__ feature:
 
 A demo installation showing the theme can be found [here](https://demo.creativeshop.io).
 
+## User guide
+
+PDF User guide of MageSuite features can be downloaded [here](https://info.creativestyle.de/hubfs/MageSuite/MageSuite-User-Guide-14012019.pdf).
+
+> :warning: Some of extensions presented in User Guide are optional and not bundled in main MageSuite metapackage. 
+>
+> You might need to install them separately. 
+> 
+> You can find list of all available extensions [here](https://packagist.org/?query=creativestyle%2Fmagesuite).
+>
+> We will prepare more readable list of available extensions with respective descriptions in 2021. It will be included in this README.
+
 ## Magento versions
 
 | Magento version | MageSuite package version |
