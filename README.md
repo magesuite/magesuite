@@ -31,7 +31,7 @@ PDF User guide of MageSuite features can be downloaded [here](https://info.creat
 >
 > You might need to install them separately. 
 > 
-> You can find list of all available extensions [here](https://packagist.org/?query=creativestyle%2Fmagesuite).
+> You can find list of all available extensions [here](https://packagist.org/packages/creativestyle/magesuite?query=creativestyle%2Fmagesuite).
 >
 > We will prepare more readable list of available extensions with respective descriptions in 2021. It will be included in this README.
 
