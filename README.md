@@ -25,7 +25,9 @@ A demo installation showing the theme can be found [here](https://demo.creatives
 
 PDF User guide of MageSuite features can be downloaded [here](https://info.creativestyle.de/hubfs/MageSuite/MageSuite-User-Guide-14012019.pdf).
 
-> :warning: Some of extensions presented in User Guide are optional and not bundled in main MageSuite metapackage. 
+> :warning: 
+>
+> Some of extensions presented in User Guide are optional and not bundled in main MageSuite metapackage. 
 >
 > You might need to install them separately. 
 > 
