@@ -37,17 +37,17 @@ PDF User guide of MageSuite features can be downloaded [here](https://info.creat
 
 ## Magento versions
 
-| Magento version | MageSuite package version |
-|-----------------|---------------------------|
-| 2.3.0-2.3.1     | ^2.0.0                    |
-| 2.3.2           | ^3.0.0                    |
-| 2.3.3           | ^4.0.0                    |
-| 2.3.4+           | ^5.0.0                    |
-| 2.4.0           | ^6.0.0                    |
+| Magento version | MageSuite package version |List of potential breaking compatibility changes|
+|-----------------|---------------------------|---------------------------|
+| 2.3.0-2.3.1     | ^2.0.0                    ||
+| 2.3.2           | ^3.0.0                    ||
+| 2.3.3           | ^4.0.0                    ||
+| 2.3.4+           | ^5.0.0                    ||
+| 2.4.0+           | ^7.0.0                    |[here](docs/breaking_compatibility_5_to_7.md)|
 
 ## Requirements
 
-All of the packages require Magento 2.4.0.
+All of the packages require Magento 2.4.0+.
 
 The whole ecosystem depends on [elasticsuite](http://elasticsuite.io/) and you need 
 [elasticsearch](https://www.elastic.co/products/elasticsearch) in order to use it.
@@ -67,7 +67,7 @@ __TIP__ *It's advised you either have __[Elasticsuite](https://github.com/Smile-
 __elasticsearch__ up and running on `localhost:9200` prior to executing the `setup:upgrade` or it will fail.*
 
 * (optional) [Install Magento](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/integrator_install.html) if you don't have it yet 
-* Execute `composer require creativestyle/magesuite ^6.0.0`
+* Execute `composer require creativestyle/magesuite ^7.0.0`
 * Execute `bin/magento setup:upgrade`
 * Build the theme (next chapter)
 * Flush Magento cache
