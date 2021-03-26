@@ -1,0 +1,5 @@
+include:
+    - project: 'mageops/gitlab-ci-templates'
+      ref: master
+      file: 'composer-package.yml'
+    
