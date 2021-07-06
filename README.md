@@ -44,10 +44,11 @@ PDF User guide of MageSuite features can be downloaded [here](https://info.creat
 | 2.3.3           | ^4.0.0                    ||
 | 2.3.4+           | ^5.0.0                    ||
 | 2.4.0+           | ^7.0.0                    |[here](docs/breaking_compatibility_5_to_7.md)|
+| 2.4.2+           | ^8.0.0                    |Preparation in progress|
 
 ## Requirements
 
-All of the packages require Magento 2.4.0+.
+All of the packages require Magento 2.4.2+.
 
 The whole ecosystem depends on [elasticsuite](http://elasticsuite.io/) and you need 
 [elasticsearch](https://www.elastic.co/products/elasticsearch) in order to use it.
@@ -66,14 +67,17 @@ __TIP__ *It's advised you either have __[Elasticsuite](https://github.com/Smile-
 (version 2.10.x) already installed and running. If you don't then this package will install it and you must have 
 __elasticsearch__ up and running on `localhost:9200` prior to executing the `setup:upgrade` or it will fail.*
 
-* (optional) [Install Magento](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/integrator_install.html) if you don't have it yet 
-* Execute `composer require creativestyle/magesuite ^7.0.0`
+* (optional) [Install Magento](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/integrator_install.html) if you don't have it yet 
+* Execute `composer require creativestyle/magesuite ^8.0.0`
 * Execute `bin/magento setup:upgrade`
 * Build the theme (next chapter)
 * Flush Magento cache
 * Switch the theme to __Theme Creativeshop__ in admin
 
 ## Building theme-creativeshop
+> :warning: 
+>
+> theme-creativeshop from version 12 requires Node 14 
 
 MageSuite theme does not rely on Magento for building the assets, instead it uses *gulp*.
 
