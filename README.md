@@ -55,7 +55,7 @@ The whole ecosystem depends on [elasticsuite](http://elasticsuite.io/) and you n
 [elasticsearch](https://www.elastic.co/products/elasticsearch) in order to use it.
 
 All of the frontend features and improvements are implemented in 
-[theme-creativeshop](https://github.com/creativestyle/theme-creativeshop). 
+[theme-creativeshop](https://github.com/magesuite/theme-creativeshop). 
 You won't be able to take advantage of them if you use __Luma__ or other custom theme.
 
 __WARNING!__ We do not support "easy"/"zip" magento installations. Creativeshop supports
