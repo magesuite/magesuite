@@ -46,6 +46,7 @@ PDF User guide of MageSuite features can be downloaded [here](https://info.creat
 | 2.4.0+           | ^7.0.0                    |[here](docs/breaking_compatibility_5_to_7.md)|
 | 2.4.2+           | ^8.0.0                    |[here](docs/breaking_compatibility_7_to_9.md)||
 | 2.4.2+           | ^9.0.0                    |[here](docs/breaking_compatibility_7_to_9.md)||
+| 2.4.3+           | ^10.0.0                    |[here](docs/breaking_compatibility_9_to_10.md)||
 
 ## Requirements
 
