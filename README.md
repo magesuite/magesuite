@@ -23,7 +23,7 @@ A demo installation showing the theme can be found [here](https://demo.creatives
 
 ## User guide
 
-PDF User guide of MageSuite features can be downloaded [here](https://info.creativestyle.de/hubfs/MageSuite/MageSuite-User-Guide-14012019.pdf).
+User guide of MageSuite features can be found [here](https://creativestyle.atlassian.net/wiki/spaces/MGS/overview).
 
 > :warning: 
 >
