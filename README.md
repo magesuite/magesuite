@@ -47,6 +47,7 @@ User guide of MageSuite features can be found [here](https://creativestyle.atlas
 | 2.4.2+           | ^8.0.0                    |[here](docs/breaking_compatibility_7_to_9.md)||
 | 2.4.2+           | ^9.0.0                    |[here](docs/breaking_compatibility_7_to_9.md)||
 | 2.4.3+           | ^10.0.0                    |[here](docs/breaking_compatibility_9_to_10.md)||
+| 2.4.4+           | ^11.0.0                    |[here](docs/breaking_compatibility_10_to_11.md)||
 
 ## Requirements
 

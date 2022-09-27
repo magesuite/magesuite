@@ -11,12 +11,12 @@
     "creativestyle/magesuite-cms-duplicate": "^2.0.0",
     "creativestyle/magesuite-cms-product-backlink": "^1.0.0",
     "creativestyle/magesuite-cms-tag-manager": "^1.0.0",
-    "creativestyle/magesuite-content-constructor-admin": "^3.0.0",
+    "creativestyle/magesuite-content-constructor-admin": "^4.0.0",
     "creativestyle/magesuite-content-constructor-asset": "^1.0.0",
     "creativestyle/magesuite-content-constructor-category-page": "^1.0.0",
-    "creativestyle/magesuite-content-constructor-frontend": "^4.0.0",
+    "creativestyle/magesuite-content-constructor-frontend": "^5.0.0",
     "creativestyle/magesuite-content-constructor-remove-layout-validation": "^1.0.0",
-    "creativestyle/magesuite-daily-deal": "^1.0.0",
+    "creativestyle/magesuite-daily-deal": "^2.0.0",
     "creativestyle/magesuite-defer-js": "^1.0.0",
     "creativestyle/magesuite-elasticsuite-addons": "^1.0.0",
     "creativestyle/magesuite-email-attachments": "^3.0.0",
@@ -32,7 +32,7 @@
     "creativestyle/magesuite-pagination": "^1.0.0",
     "creativestyle/magesuite-persistent-sitemap": "^1.0.0",
     "creativestyle/magesuite-product-bestsellers-ranking": "^1.0.0",
-    "creativestyle/magesuite-product-positive-indicators": "^2.0.0",
+    "creativestyle/magesuite-product-positive-indicators": "^3.0.0",
     "creativestyle/magesuite-seo-canonical": "^1.0.0",
     "creativestyle/magesuite-seo-hreflang": "^1.0.0",
     "creativestyle/magesuite-soft-db-status-validation": "^1.0.0",
@@ -41,7 +41,7 @@
     "creativestyle/magesuite-url-regeneration": "^1.0.0",
     "creativestyle/magesuite-url-rewrite-mass-actions": "^1.0.0",
     "creativestyle/magesuite-url-rewrite": "^1.0.0",
-    "creativestyle/theme-creativeshop": "^16.0.0",
+    "creativestyle/theme-creativeshop": "^17.0.0",
     "smile/elasticsuite": "^2.10"
   }
 }
