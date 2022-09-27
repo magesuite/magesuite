@@ -131,3 +131,9 @@ New higher level video component files added:
 'components/_video/players',
 'components/_video/utils',
 'components/_video/interfaces.ts',
+
+### Content Constructor Admin - Custom CC Components
+That's a feature that was requested many times by OpenSource community.
+
+Breaking change has been introduced in `creativestyle/magesuite-content-constructor-admin` module, since assets needs to be build dynamically now.
+Refer to https://github.com/magesuite/content-constructor-admin/blob/4.x/README.md for details.
