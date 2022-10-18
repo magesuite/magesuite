@@ -51,7 +51,7 @@ User guide of MageSuite features can be found [here](https://creativestyle.atlas
 
 ## Requirements
 
-All of the packages require Magento 2.4.2+.
+All of the packages require Magento 2.4.4+.
 
 The whole ecosystem depends on [elasticsuite](http://elasticsuite.io/) and you need 
 [elasticsearch](https://www.elastic.co/products/elasticsearch) in order to use it.
