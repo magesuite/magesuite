@@ -9,7 +9,7 @@ Magento 2 setup.
 
 ## Demo
 
-_A small peek into to available features, this is by no means exaustive._ 
+_A small peek into to available features, this is by no means exhaustive._ 
 
 Short video presentation of the __Content Constructor__ feature:
 
@@ -27,31 +27,32 @@ User guide of MageSuite features can be found [here](https://creativestyle.atlas
 
 > :warning: 
 >
-> Some of extensions presented in User Guide are optional and not bundled in main MageSuite metapackage. 
+> Some of the extensions presented in User Guide are optional and not bundled in main MageSuite metapackage. 
 >
 > You might need to install them separately. 
 > 
 > You can find list of all available extensions [here](https://packagist.org/packages/creativestyle/magesuite?query=creativestyle%2Fmagesuite).
 >
-> We will prepare more readable list of available extensions with respective descriptions in 2021. It will be included in this README.
+> We are working currently on documentation for all optional extensions. It will be available in the confluence linked above.
 
 ## Magento versions
 
-| Magento version | MageSuite package version |List of potential breaking compatibility changes|
-|-----------------|---------------------------|---------------------------|
+| Magento version | MageSuite package version | List of potential breaking compatibility changes |
+|-----------------|---------------------------|--------------------------------------------------|
 | 2.3.0-2.3.1     | ^2.0.0                    ||
 | 2.3.2           | ^3.0.0                    ||
 | 2.3.3           | ^4.0.0                    ||
-| 2.3.4+           | ^5.0.0                    ||
-| 2.4.0+           | ^7.0.0                    |[here](docs/breaking_compatibility_5_to_7.md)|
-| 2.4.2+           | ^8.0.0                    |[here](docs/breaking_compatibility_7_to_9.md)||
-| 2.4.2+           | ^9.0.0                    |[here](docs/breaking_compatibility_7_to_9.md)||
-| 2.4.3+           | ^10.0.0                    |[here](docs/breaking_compatibility_9_to_10.md)||
-| 2.4.4+           | ^11.0.0                    |[here](docs/breaking_compatibility_10_to_11.md)||
+| 2.3.4+          | ^5.0.0                    ||
+| 2.4.0-2.4.1     | ^7.0.0                    | [here](docs/breaking_compatibility_5_to_7.md)    |
+| 2.4.2          | ^8.0.0                    | [here](docs/breaking_compatibility_7_to_9.md)    ||
+| 2.4.2          | ^9.0.0                    | [here](docs/breaking_compatibility_7_to_9.md)    ||
+| 2.4.3           | ^10.0.0                   | [here](docs/breaking_compatibility_9_to_10.md)   ||
+| 2.4.4           | ^11.0.0                   | [here](docs/breaking_compatibility_10_to_11.md)  ||
+| 2.4.5+          | ^12.0.0                   | [here](docs/breaking_compatibility_11_to_12.md)  ||
 
 ## Requirements
 
-All of the packages require Magento 2.4.4+.
+All of the packages require Magento 2.4.5+.
 
 The whole ecosystem depends on [elasticsuite](http://elasticsuite.io/) and you need 
 [elasticsearch](https://www.elastic.co/products/elasticsearch) in order to use it.
@@ -61,7 +62,7 @@ All of the frontend features and improvements are implemented in
 You won't be able to take advantage of them if you use __Luma__ or other custom theme.
 
 __WARNING!__ We do not support "easy"/"zip" magento installations. Creativeshop supports
-only the [Integrator / composer](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/integrator_install.html)
+only the [composer](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/composer.html)
 route.
 
 ## Installation
@@ -71,11 +72,11 @@ __TIP__ *It's advised you either have __[Elasticsuite](https://github.com/Smile-
 __elasticsearch__ up and running on `localhost:9200` prior to executing the `setup:upgrade` or it will fail.*
 
 * (optional) [Install Magento](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/integrator_install.html) if you don't have it yet 
-* Execute `composer require creativestyle/magesuite ^11.0.0`
+* Execute `composer require creativestyle/magesuite ^12.0.0`
 * Execute `bin/magento setup:upgrade`
 * Build the theme (next chapter)
 * Flush Magento cache
-* Switch the theme to __Theme Creativeshop__ in admin
+* Switch the theme to __Theme Creativeshop__ in the admin panel
 
 ## Building theme-creativeshop
 > :warning: 
