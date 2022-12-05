@@ -71,7 +71,7 @@ __TIP__ *It's advised you either have __[Elasticsuite](https://github.com/Smile-
 (version 2.10.x) already installed and running. If you don't then this package will install it and you must have 
 __elasticsearch__ up and running on `localhost:9200` prior to executing the `setup:upgrade` or it will fail.*
 
-* (optional) [Install Magento](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/integrator_install.html) if you don't have it yet 
+* (optional) [Install Magento](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/composer.html) if you don't have it yet 
 * Execute `composer require creativestyle/magesuite ^12.0.0`
 * Execute `bin/magento setup:upgrade`
 * Build the theme (next chapter)
