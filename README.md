@@ -14,6 +14,6 @@ Brought to life by<br/>
 <a href="https://creativestyle.de">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="./images/cs_logo_dark.png">
-      <img src="./images/cs_logo_light.png">
+      <img src="./images/cs_logo_light.png" width="211px">
     </picture>
 </a>
