@@ -8,7 +8,7 @@
 _A Magento 2 extension ecosystem providing UX/performance improvements and many new features._
 
 ## Documentation
-https://creativestyle.atlassian.net/wiki/spaces/MGSDEV/pages/2249555980/Getting+Started
+Documentation can be found here: [dev.magesuite.org](http://dev.magesuite.org/)
 
 Brought to life by<br/>
 <a href="https://creativestyle.de">
