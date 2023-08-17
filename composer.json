@@ -41,7 +41,7 @@
     "creativestyle/magesuite-url-regeneration": "^1.0.0",
     "creativestyle/magesuite-url-rewrite-mass-actions": "^1.0.0",
     "creativestyle/magesuite-url-rewrite": "^1.0.0",
-    "creativestyle/theme-creativeshop": "^18.0.0",
+    "creativestyle/theme-creativeshop": "^19.0.0",
     "smile/elasticsuite": "^2.10"
   }
 }
