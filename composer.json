@@ -14,7 +14,7 @@
     "creativestyle/magesuite-content-constructor-admin": "^4.0.0",
     "creativestyle/magesuite-content-constructor-asset": "^1.0.0",
     "creativestyle/magesuite-content-constructor-category-page": "^1.0.0",
-    "creativestyle/magesuite-content-constructor-frontend": "^5.0.0",
+    "creativestyle/magesuite-content-constructor-frontend": "^6.0.0",
     "creativestyle/magesuite-content-constructor-remove-layout-validation": "^1.0.0",
     "creativestyle/magesuite-daily-deal": "^2.0.0",
     "creativestyle/magesuite-defer-js": "^1.0.0",
@@ -41,7 +41,7 @@
     "creativestyle/magesuite-url-regeneration": "^1.0.0",
     "creativestyle/magesuite-url-rewrite-mass-actions": "^1.0.0",
     "creativestyle/magesuite-url-rewrite": "^1.0.0",
-    "creativestyle/theme-creativeshop": "^21.0.0",
+    "creativestyle/theme-creativeshop": "^22.0.0",
     "smile/elasticsuite": "^2.11"
   }
 }
